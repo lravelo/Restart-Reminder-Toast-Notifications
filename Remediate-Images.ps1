@@ -1,9 +1,10 @@
 $ImageDir = "C:\Program Files\RestartReminder"
+$ImageUrl = "https://raw.githubusercontent.com/lravelo/Restart-Reminder-Toast-Notifications/refs/heads/main/images"
 $Images = @{
-    "notification_icon.ico" = "<YOUR_PUBLIC_URL>/notification_icon.ico"
-    "startrestart.gif"     = "<YOUR_PUBLIC_URL>/startrestart.gif"
-    "pleasereboot.gif"     = "<YOUR_PUBLIC_URL>/pleasereboot.gif"
-    "shuttingdown.gif"     = "<YOUR_PUBLIC_URL>/shuttingdown.gif"
+    "notification_icon.ico" = "$ImageUrl/notification_icon.ico"
+    "startrestart.gif"     = "$ImageUrl/startrestart.gif"
+    "pleasereboot.gif"     = "$ImageUrl/pleasereboot.gif"
+    "shuttingdown.gif"     = "$ImageUrl/shuttingdown.gif"
 }
 
 # Ensure directory exists
